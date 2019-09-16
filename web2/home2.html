@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style2.css">
+    <title>NRC Train Booking Portal</title>
+</head>
+<body>
+
+    <!-- Navbar with logo and nav buttons -->
+    <nav class="navbar navbar-light ">
+        <a class="navbar-brand" href="#">
+        <img src="./img/Logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+        Nigerian Railway Corperation
+        </a>
+
+        <nav class="navbar navbar-expand-lg navbar-light ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./help.html">Help</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./register.html">Sign in/Register</a>
+                    </li>
+                  </ul>
+                </div>
+         </nav>
+
+    </nav>
+
+          <div class="wrapper">
+            <div class="row">
+              <div class="column">
+                <div class="form1">
+                    <form>
+                        <div class="booking-form-box">
+                                <div class="radio-btn">
+                                    <input type="radio" class="btn" name="check" checked="checked"><span>Round trip</span>
+                                    <input type="radio" class="btn" name="check"><span>One way</span>
+                                    <input type="radio" class="btn" name="check"><span>Multi city</span>
+                                </div>
+                        
+                                <div class="booking-form">
+                                    <label>Trip From</label>
+                                    <select class="custom-select">
+                                      <option value="" selected disabled hidden>Choose departing station</option>
+                                      <option value="1">Kubwa, Abuja</option>
+                                      <option value="2">Idu, Abuja</option>
+                                      <option value="3">Rigasa, Kaduna</option> 
+                                    </select>
+                                    <label>Trip To</label>
+                                    <select class="custom-select">
+                                      <option value="" selected disabled hidden>Choose arriving station</option>
+                                      <option value="1">Kubwa, Abuja</option>
+                                      <option value="2">Idu, Abuja</option>
+                                      <option value="3">Rigasa, Kaduna</option>
+                                    </select>
+                                    
+                                        <div class="input-grp">
+                                            <label>Departing</label>
+                                            <input type="date" class="form-control select-date">
+                                    </div>
+                        
+                                    <div class="input-grp">
+                                            <label>Returning</label>
+                                            <input type="date" class="form-control select-date">
+                                    </div>
+                        
+                                    <div class="input-grp">
+                                            <label>Adults</label>
+                                            <input type="number" class="form-control" value="1">
+                                    </div>
+                                    
+                                    <div class="input-grp">
+                                            <label>Children</label>
+                                            <input type="number" class="form-control" value="0">
+                                    </div>
+                        
+                                    <div class="input-grp">
+                                        <label>Travel Class</label>
+                                        <select class="custom-select">
+                                            <option value="1">Economy Class</option>
+                                            <option value="2">Business Class</option>
+                                        </select>
+                                    </div>
+                        
+                                    <div class="input-grp">
+                                        <button type="button" class="btn btn-primary trip">Show Trip</button>
+                                    </div>
+                        
+                                </div>
+                            </div>
+                    </form>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="texts">
+                  <span>
+                    <img src="https://img.icons8.com/ios/50/000000/money.png"><p class="bigtext">Find the best price for your journey</p>
+                    <p class="smalltext">Compare and book train tickets to and from your destination.
+                    </p>
+                  </span>
+
+                  <span>
+                    <img src="https://img.icons8.com/ios/50/000000/overtime.png"><p class="bigtext">Book and travel easily</p>
+                    <p class="smalltext">Choose any convenient date and time to enjoy smooth journeys! (and skip station queues :) ).
+                    </p>
+                  </span>
+                  
+                  <span>
+                    <img src="https://img.icons8.com/ios/50/000000/private2.png"><p class="bigtext">Pay securely</p>
+                    <p class="smalltext">Buy tickets easily and securely with PayStack using any valid cards.
+                    </p>
+                  </span>
+                </div>
+                <img src="./img/paystack2.png" width="250px" height="70px"> 
+              </div>
+
+            </div>
+          </div>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

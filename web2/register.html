@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <title>Sign in or Register</title>
+</head>
+<body>
+
+    <!-- Navbar with logo and nav buttons -->
+    <nav class="navbar navbar-light ">
+            <a class="navbar-brand" href="#">
+            <img src="./img/Logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+            Nigerian Railway Corperation
+            </a>
+    
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                          <a class="nav-link" href="./home2.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Schedule</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./help.html">Help</a>
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link" href="./register.html">Sign in/Register <span class="sr-only">(current)</span></a>
+                        </li>
+                      </ul>
+                    </div>
+             </nav>
+    
+        </nav>
+
+    <h2>Log in or Sign up</h2>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Create Account</h1>
+			
+			<input type="text" placeholder="Name" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<button>Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Sign in</h1>
+
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<a href="#">Forgot your password?</a>
+			<button>Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Welcome Back!</h1>
+				<p>Log in to view and book new trips </p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hey there!</h1>
+				<p>Sign up and enjoy smoother and easier transasctions</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer>
+	
+</footer>
+<script src="./js/register.js"></script>
+</body>
+</html>
